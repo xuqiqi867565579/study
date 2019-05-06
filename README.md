@@ -1,20 +1,18 @@
-<p align="center">
-  <img width="280" src="https://avatars1.githubusercontent.com/u/8192412?s=460&v=4" alt="logo">
-</p>
-
 ## Target
+
 Collect quality content & classical problem
 
 Contributions are welcome!
 
 ## Edit Content
-``` bash
+
+```bash
 # 启动开发服务
 npm run dev
 
 # 添加导航 text&link
 modify /src/.vuepress/config.js
-such as: 
+such as:
  {
   text: '快速搭建开发环境',
   link: '/zh/standard/Start.md'
@@ -35,22 +33,23 @@ npm run build
 
 > Please make sure your version of Node.js is greater than 8.
 
-``` bash
+```bash
 npm run dev # serves VuePress' own docs with itself
 ```
 
 ## Deploy
-``` bash
+
+```bash
 npm run build
 ```
 
 ## Contribute
-- Send pr to add excellent content
-- Help us improve our content on exist pages  
+
+-   Send pr to add excellent content
+-   Help us improve our content on exist pages
 
 ![improve](/src/.vuepress/public//img/improve.png)
 
 ## License
 
 MIT
-
